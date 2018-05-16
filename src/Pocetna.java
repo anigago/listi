@@ -13,8 +13,8 @@ public class Pocetna {
 		listaNaBroevi.add(88);
 		listaNaBroevi.add(22);
 		List<Integer> pomailiOd50 = listaNaBroevi.stream()
-				.filter(x -> x<50)
-				.map(x -> x*2)	
+				.filter(x -> x<20)
+				.map(x -> x*3)	
 				.collect(Collectors.toList());
 		System.out.println(pomailiOd50);
 		
